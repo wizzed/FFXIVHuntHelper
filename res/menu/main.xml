@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.wizzed.centuriohunthelper.MainActivity" >
+
+    <item
+        android:id="@+id/lang"
+        android:icon="@null"
+        android:orderInCategory="99"
+        android:showAsAction="always|withText"
+        android:title="EN"/>
+    
+    <item
+        android:id="@+id/clear_all"
+        android:orderInCategory="100"
+        android:title="Clear All"/>
+    <item
+        android:id="@+id/hide_mob"
+        android:checkable="true"
+        android:orderInCategory="101"
+        android:title="Hide 0 Mob Maps">
+    </item>
+
+</menu>
